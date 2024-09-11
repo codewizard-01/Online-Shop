@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechStore</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/general.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <!-------------- Section - Header SVGs ------------>
@@ -239,6 +239,76 @@
       </div>
     </div>
 
+    <!-------------- Section - Featured ------------>
+    <section class="featured">
+    <h2 class="featured-title">This Season's Favorite Categories</h2>
+    <div class="featured-cards row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="product-image" src="assets/images/products/digital-products/product--1.jpg">
+            <div class="card-body">
+              <p class="card-text">Airpod</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="product-image" src="assets/images/products/digital-products/product--2.jpg">
+            <div class="card-body">
+              <p class="card-text">Airpod</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="product-image" src="assets/images/products/digital-products/product--3.webp">
+            <div class="card-body">
+              <p class="card-text">Airpod</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="about">
+    <div class="about-cont">
+      <div class="about-text">
+        <div class="text-container">
+        <h2 class="about-title">About TechStore </h2>
+        <p class="about-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Nulla, enim, pariatur atque cum architecto,
+          debitis esse modi dolor ex qui harum recusandae voluptatibus!
+          Dicta similique, at quos a asperiores provident.</p>
+        <button class="btn btn-primary about-btn">Learn More</button>
+        </div>  
+      </div>
+      <div class="about-img">
+        <img class="about-image" src="assets/images/about/img--1.jpeg">
+      </div>
+    </div>
+    </section>
+
+
+
+
+
+   
     <script src="assets/scripts/bootstrap.bundle.min.js"></script>
   </body>
 </html>

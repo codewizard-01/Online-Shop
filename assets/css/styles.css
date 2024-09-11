@@ -1,0 +1,69 @@
+/*
+Spacing System: px 
+
+12, 16, 18, 20, 22, 24, 26, 28, 32, 36, 42, 48, 52, 56, 62, 72, 82
+
+---Font: 
+
+--Font Size: 
+10, 12, 14, 16, 18, 22, 24, 26, 28, 30, 32, 34, 36, 38, 42, 46, 52, 56, 62
+
+
+
+
+
+*/
+
+body {
+  font-size: 62.5%;
+}
+
+.icon-color {
+  fill: #fff;
+}
+
+/****** Hero Section ********/
+
+.hero {
+  height: 800px;
+}
+
+/******* Featured Section ********/
+.featured-title {
+  text-align: center;
+  margin: 4.2rem 0 1.8rem 0;
+}
+
+.featured-cards {
+  margin: 0 3.6rem;
+}
+
+.product-image {
+  width: 100%;
+  height: 20rem;
+}
+
+/******* About Section ********/
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 4.2rem 3.6rem;
+}
+.about-cont {
+  display: flex;
+  gap: 3.6rem;
+}
+
+.about-text {
+  width: 40vw;
+}
+
+.about-image {
+  width: 45vw;
+  border-radius: 5%;
+}
+
+.text-container {
+  width: 80%;
+  margin: 20% auto;
+}
